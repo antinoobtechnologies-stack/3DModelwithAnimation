@@ -20,9 +20,9 @@ export const ANIMATION_SEGMENTS: AnimationSegment[] = [
     end: 0.0,
     // cam: { position: [0, -22.25, 9.3842], target: [0, 1, 0], fov: 90, moveSeconds: 0.6 },
     cam: {
-      position: [10, 10, 8],
+      position: [1, 10, 8],
       target: [0, 0, 0], // look straight down
-      fov: 20,
+      fov: 10,
       moveSeconds: 0.6,
     }
   },
