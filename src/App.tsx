@@ -48,7 +48,7 @@ const App: React.FC = () => {
 
       <div className="app-main">
         <div className="canvas-wrapper">
-          <Canvas camera={{ position: [1, 10, 8], fov: 20 }}>
+          <Canvas camera={{ position: [1, 10, 8], fov: 50 }}>
             <ambientLight intensity={0.7} />
             <directionalLight position={[5, 10, 5]} intensity={1} />
             <Environment preset="studio" />
